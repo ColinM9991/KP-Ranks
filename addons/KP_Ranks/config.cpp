@@ -19,7 +19,7 @@ class CfgPatches {
     class KP_Ranks {
         author = "Wyqer";
         name = "KP Ranks";
-        url = "https://github.com/KillahPotatoes/KP-Ranks";
+        url = "https://github.com/ColinM9991/KP-Ranks";
         units[] = {"KPR_force"};
         weapons[] = {};
         requiredVersion = 1.84;
@@ -28,8 +28,8 @@ class CfgPatches {
             "cba_main"
         };
         versionDesc = "KP Ranks";
-        version = 2.0.2;
-        versionStr = "2.0.2";
+        version = 2.0.3;
+        versionStr = "2.0.3";
         versionAr[] = {2,0,2};
         authors[] = {"Wyqer"};
     };
