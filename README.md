@@ -67,6 +67,13 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
 
 ## Changelog
+### v2.0.3
+* Added: A new CBA Event that fires on the machine of the player whose rank has changed.
+    * KPR_event_playerRankChanged
+        * Parameters:
+            * [0]NUMBER - New Rank
+            * [1]NUMBER - Old Rank
+
 ### v2.0.2
 * Added: Portuguese localization. Thanks to [AngusDLX](https://github.com/AngusDLX)
 * Added: Spanish localization. Thanks to [Jettfiremachine](https://github.com/amunoz20)
