@@ -578,7 +578,7 @@ class CfgUnitInsignia {
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         texture = "#(rgb,8,8,3)color(0,0,0,0)";
         textureVehicle = "";
-    }
+    };
     class KPR_CRO_1 {
         author = "Degman";
         displayName = "CRO01 Pozornik";
