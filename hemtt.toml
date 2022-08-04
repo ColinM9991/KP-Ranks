@@ -1,5 +1,5 @@
 name = "KP Ranks (TVG)"
-prefix = ""
+prefix = "KPR"
 author = "Wyqer, ColinM"
 template = "cba"
 folder_optionals = true

@@ -11,6 +11,8 @@
     Defines of the dialogs which are used in the KP Ranks mod.
 */
 
+#include "KP_uiDefines.hpp"
+
 class KPR_playerList {
     idd = 7580821;
     movingEnable = 0;
