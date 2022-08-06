@@ -1,0 +1,26 @@
+name = "KP Ranks (TVG)"
+prefix = "KPR"
+author = "Wyqer, ColinM"
+template = "cba"
+folder_optionals = true
+sig_version = 3
+version = "2.0.3"
+
+files = [
+    "classnames.md",
+    "kplogo_ca.paa",
+    "LICENSE",
+    "mod.cpp",
+    "RANKS-OVERVIEW.png",
+    "README.md"
+]
+
+key_name = "{{prefix}}_{{version}}"
+authority = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+
+releasebuild = [
+    "@zip kp_ranks-{{semver.major}}.{{semver.minor}}.{{semver.patch}}"
+]
+
+[header_exts]
+version= "{{git \"id 8\"}}"
