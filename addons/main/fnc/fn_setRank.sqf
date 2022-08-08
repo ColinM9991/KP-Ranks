@@ -28,7 +28,10 @@ private _index = [_uid] call KPR_fnc_getPlayerIndex;
 if (_index == -1) exitWith {false};
 
 // Set rank and save
+private _oldRank = (KPR_players select _index) select 2;
 KPR_players select _index set [2, _rank];
 [KPR_players] call KPR_fnc_savePlayers;
+
+["KPR_event_playerRankChanged", [_rank, _oldRank], player] call CBA_fnc_targetEvent;
 
 true

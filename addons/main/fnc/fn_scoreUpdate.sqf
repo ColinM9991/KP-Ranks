@@ -42,7 +42,7 @@ private _keepPoints = 0;
 
     // Only continue, if player is in array (maybe he was just deleted by an Admin)
     if (_index > -1) then {
-        private _playerRankInfo = _playerRankInfo;
+        private _playerRankInfo = KPR_players select _index;
         // Get current score and rank
         _score = [_uid] call KPR_fnc_getScore;
         _rank = [_uid] call KPR_fnc_getRank;
