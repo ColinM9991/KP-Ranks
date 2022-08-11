@@ -4,7 +4,7 @@ author = "Wyqer, ColinM"
 template = "cba"
 folder_optionals = true
 sig_version = 3
-version = "2.0.3"
+version = "2.0.5"
 
 files = [
     "classnames.md",

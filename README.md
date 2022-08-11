@@ -67,6 +67,8 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
 
 ## Changelog
+### v2.0.5
+* Fixed: Mistype on scoreUpdate which resulted in rank being set to `any`
 ### v2.0.3
 * Added: A new CBA Event that fires on the machine of the player whose rank has changed.
     * KPR_event_playerRankChanged

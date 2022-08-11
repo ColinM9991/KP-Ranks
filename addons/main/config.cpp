@@ -28,8 +28,8 @@ class CfgPatches {
             "cba_main"
         };
         versionDesc = "KP Ranks";
-        version = 2.0.3;
-        versionStr = "2.0.3";
+        version = 2.0.5;
+        versionStr = "2.0.5";
         versionAr[] = {2,0,2};
         authors[] = {"Wyqer"};
     };

@@ -64,7 +64,7 @@ private _keepPoints = 0;
 
             // If his score is above the needed points, promote him
             if (_score >= _neededPoints) then {
-                _playerRankInfo set [2, _newRank];
+                _playerRankInfo set [2, _rank + 1];
                 [true] remoteExecCall ["KPR_fnc_applyRank", _x];
                 // Announce, if enabled
                 if (KPR_levelAnnounce) then {
